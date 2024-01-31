@@ -26,10 +26,6 @@ const reactElement = {
     children : 'Click me to visit'
 };
 
-
-
-
 const container = document.querySelector('#root');
-
 
 customRender(reactElement , container)

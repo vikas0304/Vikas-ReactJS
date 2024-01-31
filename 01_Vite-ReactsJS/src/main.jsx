@@ -18,20 +18,23 @@ function MyApp(){
 //     },
 //     children : 'Click me to visit'
 // };
-
-const reactElement = React.createElement(
-    'a',
-    {href : 'https://youtube.com',target : '_blank',},
-    'Click to Visit Youtube'
-)
-
 const anotherElement = (
     <a href="https://google.com" target='_blank'>Visit google</a>
 )
 
-ReactDOM.createRoot(document.querySelector('#pal')).render(
-    <App/>
+const reactElement = React.createElement(
+    'a',
+    {href : 'https://youtube.com',target : '_blank',},
+    'Click to Visit Youtube ',
+    anotherElement
 )
+
+
+
+ReactDOM.createRoot(document.querySelector('#pal')).render(
+    reactElement
+)
+
 
 
 

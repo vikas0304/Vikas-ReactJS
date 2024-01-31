@@ -4,7 +4,8 @@ function App() {
   return (
     <>
       <Vikas/>
-      <h5>Bikku</h5>
+      <h5>Bikku
+      </h5>
     </>
   )
 }

@@ -1,17 +1,13 @@
 import React from "react";
 
-function Card({username}){
+function Card(){
 
     return(
 
     <>
-
-        <div className="newsContainer flex justify-center">
-          
-
-
-        </div>
-
+        <section>
+            
+        </section>
     </>
 
     )

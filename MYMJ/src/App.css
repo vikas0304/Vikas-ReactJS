@@ -1,0 +1,38 @@
+.container{
+    background: red;
+    box-sizing: border-box;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin:0 auto;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.contactUS{
+    display:flex;
+}
+
+.follow{
+    display: flex;
+    margin: 0 2rem;
+}
+.follow i{
+    padding: 3px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.contact{
+    display: flex;
+    margin: 0 2rem;
+}
+.contact i{
+    padding: 3px;
+    margin-top: 3px;
+    margin-left: 5px;
+
+}

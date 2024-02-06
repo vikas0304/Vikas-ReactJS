@@ -1,3 +1,6 @@
+body{
+    background: #C5C5C5;
+}
 .container{
     background: red;
     box-sizing: border-box;
@@ -6,6 +9,7 @@
 .topnav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1200px;
     margin:0 auto;
     color: white;
@@ -36,3 +40,76 @@
     margin-left: 5px;
 
 }
+
+.card{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-conatiner{
+    box-sizing: border-box;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.card-conatiner img{
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-content{
+    margin:10px 10px;
+}
+.card-content h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1;
+    letter-spacing: 0.1px;
+}
+
+.card-content p{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    color: blue;
+    font-weight: 600;
+    margin-block: 10px;
+    align-items: flex-end;
+}
+
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.card-footer .time{
+ height: 10px;
+ width: 80px;
+}
+.card-footer .mfa{
+ height: 10px;
+ width: 80px;
+}
+.card-footer .share{
+ height: 10px;
+ width: 80px;
+}
+
